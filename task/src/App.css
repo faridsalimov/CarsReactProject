@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter");
+
+.App {
+  font-family: "Inter", sans-serif;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.App-header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.car-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px;
+}
+
+.car-list .car {
+  position: relative;
+  width: 250px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.car-list .car img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.car-list .car .favorite-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.favorites {
+  margin: 20px;
+}
+
+.favorites ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.favorites ul li {
+  margin-bottom: 10px;
+}
+
+.favorites ul li button {
+  margin-left: 10px;
+  border: none;
+  background-color: transparent;
+  color: red;
+  cursor: pointer;
+}
+
+.car-details {
+  margin: 20px auto;
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.car-details h2 {
+  margin-top: 0;
+}
+
+.car-details p {
+  font-size: 18px;
+}
+
+.car-details img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.car-details input[type="text"],
+.car-details textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.car-details button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.car-details button:hover {
+  background-color: #0056b3;
+}
+
+.car-details .comments h3 {
+  margin-top: 0;
+}
+
+.car-details .comments div {
+  margin-top: 15px;
+}
+
+.search-container {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.search-container input[type="text"] {
+  width: 300px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.search-container input[type="text"]:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.search-container button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.search-container button:hover {
+  background-color: #0056b3;
+}
+
+.search-container .search-results {
+  margin-top: 10px;
+}
+
+.search-container .search-results .car {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.search-container .search-results .car:hover {
+  cursor: pointer;
+}
+
+.search-container .search-results .car img {
+  width: 100px;
+  height: auto;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.search-container .search-results .car h3 {
+  margin: 0;
+}
+
+.search-container .search-results .car p {
+  margin: 5px 0;
+}
